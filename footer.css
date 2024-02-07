@@ -1,0 +1,163 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: #3f3f3f;
+}
+ul, ol {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+	border: none;
+}
+p, b, span, div, body {
+    color: #3f3f3f;
+}
+body {
+    line-height: 1;
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    word-break: keep-all;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+    #footer {
+        background-color: #f5f5f5;
+        padding: 126px 0;
+        margin-top: 600px;
+    }
+    
+    #footer-group {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #footer-group .box1 {
+        padding: 0 20px 0 20px;
+        position: relative;
+    }
+    
+    #footer-group .box1 h3 {}
+    
+    #footer-group .box1 h3 a {
+        display: block;
+    }
+    
+    #footer-group .box1 h3 a img {
+        position: absolute;
+        width: 220px;
+        top: 50%;
+        transform: translate(0, -50%);
+    } 
+    
+    #footer-group .box2{
+        padding: 0 20px 0 20px;
+    }
+    #footer-group .box2 .box-text1 {
+        font-size: 16px;
+    }
+    #footer-group .box2 .box-text1 ul {
+        display: flex;
+        margin-bottom: 36px;
+    }
+    #footer-group .box2 .box-text1 ul li {
+        padding-right: 15px;
+    }
+    
+    #footer-group .box2 .box-text1 ul li:after {
+        content: "";
+        border-right: #000 solid 2px;
+        padding-right: 15px;
+    }
+    #footer-group .box2 .box-text1 ul li:last-child::after{
+        display: none;
+    }
+    
+    #footer-group .box2 .box-text1 ul li a {
+        color: #3f3f3f;
+    }
+    
+    #footer-group .box2 .box-text2 {}
+    
+    #footer-group .box2 .box-text2 .footer-text {
+        display: flex;
+        font-size: 16px;
+        color: #b1b1b1;
+    }
+    
+    #footer-group .box2 .box-text2 .footer-text li:last-child {
+        display: none;
+    }
+    
+    #footer-group .box2 .box-text2 .footer-text li {
+        line-height: 20px;
+    }
+    
+    
+    @media only screen and (max-width: 1100px) {
+        ul {
+        padding-inline-start: 0;
+        }
+        #footer {
+        padding: 60px 0;
+        }
+        #footer #footer-group{
+        flex-direction: column;
+        text-align: center;
+        }
+        #footer #footer-group .box1 {
+        height: 80px;
+        line-height: 80px;
+        margin-bottom: 40px;
+        }
+        #footer #footer-group .box1 > h3 {
+        margin: 0;
+        }
+        #footer #footer-group .box1 h3 a img {
+        width: 160px;
+        position: static;
+        vertical-align: middle;
+        padding-top: 60px;
+        }
+        #footer #footer-group .box2 .box-text1 {
+        width: 80%;
+        margin: 0 auto;
+        }
+        #footer-group .box-text1 ul li {
+    
+        }
+        #footer-group .box-text1 ul li {
+        font-size: 16px;
+        display: inline-block;
+        }
+        #footer-group .box-text2 .footer-text li {
+        font-size: 12px;
+        }
+        #footer-group .box2 {
+        padding: 0;
+        }
+        #footer-group .box2 .box-text2 .footer-text li:first-child {
+        display: none; 
+        }
+        #footer-group .box2 .box-text2 .footer-text li:last-child {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+        }
+        #footer-group .box2 .box-text1 ul {
+        display: block;
+        margin-bottom: 36px;
+        }
+    }

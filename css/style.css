@@ -1,0 +1,176 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
+
+/* tabmenu start */
+.tabmenu{ 
+    padding: 600px;
+    max-width:1280px; 
+    margin: 0 auto; 
+    position:relative;
+}
+.tabmenu ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.tabmenu ul li{
+    display:inline-block;
+    width:33.33%;
+    text-align:center; 
+    background :#f9f9f9;
+    line-height:40px;
+}
+.tabmenu label{
+    display:block;
+    width:100%;
+    cursor: pointer;
+    height:40px;
+    line-height:40px;
+}
+.tabmenu input{
+    display:none;
+}
+.tabCon{
+    display:none;
+    position:absolute; 
+    left:0;
+    top:40px;
+}
+.tabmenu input:checked ~ label{
+    background:#ccc;
+}
+.tabmenu input:checked ~ .tabCon{
+    display:block;
+}
+/* tabmenu end */
+
+/* page1 start */
+#page1{
+    background-color: beige;
+    width: 100%;
+    height: 100vh;
+}
+#page1 .title{
+    text-align: center;
+    padding-top: 500px;
+    font-size: 20px;
+}
+/* page1 end */
+
+/* page2 start */
+/* content1 start */
+#page2{
+    max-width: 1192px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#page2 > h2,
+#page4 > h2{
+    padding-bottom: 50px;
+    font-size: 46px;
+    font-weight: 900;
+    text-align: center;
+}
+#page2 > .content{
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#page2 > .content > .content1{
+    height: 740px;
+    display: flex;
+    justify-content: space-between;
+}
+#page2 > .content > .content1 > .box1{
+    width: 380px;
+    height: 740px;
+    background-color: #ccc;
+}
+#page2 > .content > .content1 > .box2,
+#page2 > .content > .content1 > .box3{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#page2 > .content > .content1 > .box2 > .box2-1,
+#page2 > .content > .content1 > .box2 > .box2-2,
+#page2 > .content > .content1 > .box3 > .box3-1,
+#page2 > .content > .content1 > .box3 > .box3-2{
+    width: 380px;
+    height: 360px;
+    background-color: #ccc;
+}
+/* content1 end */
+
+/* content2 start */
+
+
+#page2 > .content > .content2{
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#page2 > .content > .content2 > .box4,
+#page2 > .content > .content2 > .box5{
+    display: flex;
+    justify-content: space-between;
+    height: 360px;
+}
+#page2 > .content > .content2 > .box4 > .box4-1{
+    width: 380px;
+    height: 360px;
+    background-color: #ccc;
+}
+#page2 > .content > .content2 > .box4 > .box4-2{
+    width: 786px;
+    height: 360px;
+    background-color: #ccc;
+}
+
+#page2 > .content > .content2 > .box5{}
+
+#page2 > .content > .content2 > .box5 > .box5-1,
+#page2 > .content > .content2 > .box5 > .box5-2,
+#page2 > .content > .content2 > .box5 > .box5-3{
+    width: 380px;
+    height: 360px;
+    background-color: #ccc;
+}
+/* content2 end */
+/* page2 end */
+
+/* page3 start */
+#page3{}
+/* page3 end */
+
+/* page4 start */
+#page4{
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 100px 0;
+}
+#page4 > .container{
+    height: 1220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#page4 > .container > ul{
+    display: flex;
+    justify-content: space-between;
+}
+#page4 > .container > ul > li{
+    width: 380px;
+    height: 380px;
+    background-color: #ccc;
+}
+
+/* page4 end */
