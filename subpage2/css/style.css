@@ -79,6 +79,28 @@ input:-moz-input-placeholder {color: #a8a8a8;}
     font-weight: 300;
     padding-top: 8px;
 }
+.tab__item .tab-group{
+    position: relative;
+}
+.tab__item .tab-group .tab-title{
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+.tab__item .tab-group .tab-title2{
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+.tab__item .tab-group .tab-title > li > a,
+.tab__item .tab-group .tab-title2 > li > a{
+    display: block;
+    color: #666666;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+
 /* tab end */
 
 /* css */
