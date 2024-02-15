@@ -1,16 +1,36 @@
 
+.back{
+    background: url(/subpage1/image/bg1.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 660px;
+    position: relative;
+}
+/* .bg1{
+    width: 100%;
+	background-size: cover;
+    height: 600px;
+} */
 /* tab start */
 .tab {
-    max-width: 1192px;
+    position: absolute;
+    bottom: 0;
+    width: 1192px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
-    padding-top: 300px;
     font-size: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
 }
 .tab__item,
 .tab__item.active {
-    border: 1px solid #757575;
+    border: 1px solid #CECECE;
+    border-right: none;
+}
+.tab__item:last-child{
+    border-right: 1px solid #cecece;
 }
 .tab__item {
     width: 100%;
@@ -33,20 +53,62 @@
 }
 .tab__content {
     display: none;
+    text-align: center;
 }
 .tab__content.active {
     display: block;
 }
-.tab__content.active > h2,
-.tab__content > h2 {
+.tab__content.active > .content-title > h2,
+.tab__content > .content-title > h2 {
+    color: #fff;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
-    top: -200px;
+    top: -440px;
     font-size: 46px;
     font-weight: 800;
     text-align: center;
 }
+.tab__content.active > .content-title > strong,
+.tab__content > .content-title > strong,
+.tab__content.active > .content-title > b,
+.tab__content > .content-title > b,
+.tab__content.active > .content-title > p,
+.tab__content > .content-title > p{
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.tab__content.active > .content-title > strong > span,
+.tab__content > .content-title > strong > span,
+.tab__content.active > .content-title > b > span,
+.tab__content > .content-title > span{
+    font-size: 25px;
+    font-weight: 700;
+    color: #008EC6;
+}
+.tab__content.active > .content-title > strong,
+.tab__content > .content-title > strong{
+    display: block;
+    top: -320px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.tab__content.active > .content-title > b,
+.tab__content > .content-title > b{
+    display: block;
+    top: -280px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.tab__content.active > .content-title > p,
+.tab__content > .content-title > p{
+    font-weight: 200;
+    top: -240px;
+    line-height: 27px;
+}
+
 /* tab end */
 
 /* tab common */
@@ -55,7 +117,7 @@
 .content3,
 .content4,
 .content5{
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 /* tab1 start*/
@@ -82,51 +144,58 @@
 .content2 .box{
     text-align: center;
     width: 100%;
-    height: 210px;
-    background-color: #b8b8b8;
-}
-.content2 .box .sort{
-    transform: translate(0, 50%);
-}
-.content2 .box .sort > strong{
-    font-size: 30px;
-    font-weight: 800;
-}
-.content2 .box .sort > p{
-    font-size: 26px;
-    padding: 10px 0 20px;
-}
-.content2 .box .sort > span{
-    display: block;
 }
 .content2 .box .container > .sort1{
     display: flex;
     justify-content: space-between;
-    padding-top: 200px;
 }
 .content2 .box .container > .sort1 > li{
-    background-color: #b8b8b8;
+    -webkit-box-sizing: border-box;
+    border: 9px solid #008EC6;
     border-radius: 50%;
     width: 310px;
     height: 310px;
     position: relative;
 }
-.content2 .box .container > .sort1 > li > p{
+.content2 .box .container > .sort1 > li > img{
     display: block;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 34%;
     transform: translate(-50%, -50%);
 }
+.content2 .box .container > .sort1 > li > p{
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+.content2 .box .container > .sort1 > li > strong{
+    font-size: 38px;
+    font-weight: 800;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 72%;
+    transform: translate(-50%, -50%);
+}
+.content2 .box .container > .sort1 > li > strong > span{
+    color: #008EC6;
+}
 .content2 .box .container > .sort1 > li > span{
+    font-weight: 500;
     width: 250px;
     line-height: 28px;
     display: block;
     position: absolute;
     left: 50%;
-    top: 320px;
+    top: 110%;
     transform: translate(-50%, 0);
 }
+
 /* tab2 end */
 
 /* tab4 start */
