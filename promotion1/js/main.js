@@ -26,7 +26,6 @@ const tabContent = document.querySelectorAll(".tab__content");
     item.addEventListener("click", (e) => {
 
         e.preventDefault(); // a 
-        
 
         tabContent.forEach((content) => {
 
