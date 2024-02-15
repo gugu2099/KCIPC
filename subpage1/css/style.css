@@ -40,6 +40,7 @@
 }
 .tab__item.active {
     background-color: #00A3E0;
+    border: none;
 }
 .tab__item.active > a{
     color: #fff;
