@@ -28,7 +28,7 @@ input:-moz-input-placeholder {color: #a8a8a8;}
     font-size: 20px;
     padding: 20px 0;
     /* line-height: 20px; */
-    border: 1px solid #757575;
+    border: 1px solid #24aee1;
     background-color: #24aee1;
     color: #fff;
 }
@@ -39,7 +39,11 @@ input:-moz-input-placeholder {color: #a8a8a8;}
     padding: 20px 0;
     /* line-height: 20px; */
     border: 1px solid #757575;
+    border-right: none;
     color: #3f3f3f;
+}
+.hello > li:nth-child(4) > a{
+    border-right: 1px solid #757575;
 }
 .hello > li:nth-child(1) > a:hover,
 .hello > li:nth-child(3) > a:hover,
@@ -47,6 +51,7 @@ input:-moz-input-placeholder {color: #a8a8a8;}
     background-color: #24aee1;
     color: #fff ;
 }
+
 /*  */
 
 
