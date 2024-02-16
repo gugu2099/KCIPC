@@ -1,6 +1,6 @@
 
 .back{
-    background: url(/subpage1/image/bg1.png) no-repeat center center;
+    background: url(/promotion1/image/bg2.png) no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 660px;
@@ -117,123 +117,19 @@
 .content2,
 .content3,
 .content4,
-.content5{
+.content5,
+.content6{
     padding-top: 100px;
 }
 
 /* tab1 start*/
-.content1{
-    display: flex;
-    justify-content: space-between;
-}
-.content1 > img{
-    width: 384px;
-    height: 384px;
-}
-.content1 > .content1-1 > p{
-    padding-bottom: 30px;
-    line-height: 22px;
-}
-.content1 > .content1-1 > p:last-child{
-    padding-bottom: 0;
-}
 
 /* tab1 end */
 
 /* tab2 start*/
-.content2{}
-.content2 .box{
-    text-align: center;
-    width: 100%;
-}
-.content2 .box .container > .sort1{
-    display: flex;
-    justify-content: space-between;
-}
-.content2 .box .container > .sort1 > li{
-    -webkit-box-sizing: border-box;
-    border: 9px solid #008EC6;
-    border-radius: 50%;
-    width: 310px;
-    height: 310px;
-    position: relative;
-}
-.content2 .box .container > .sort1 > li > img{
-    display: block;
-    position: absolute;
-    left: 50%;
-    top: 34%;
-    transform: translate(-50%, -50%);
-}
-.content2 .box .container > .sort1 > li > p{
-    font-size: 14px;
-    font-weight: 600;
-    display: block;
-    position: absolute;
-    left: 50%;
-    top: 60%;
-    transform: translate(-50%, -50%);
-}
-.content2 .box .container > .sort1 > li > strong{
-    font-size: 38px;
-    font-weight: 800;
-    display: block;
-    position: absolute;
-    left: 50%;
-    top: 72%;
-    transform: translate(-50%, -50%);
-}
-.content2 .box .container > .sort1 > li > strong > span{
-    color: #008EC6;
-}
-.content2 .box .container > .sort1 > li > span{
-    font-weight: 500;
-    width: 250px;
-    line-height: 28px;
-    display: block;
-    position: absolute;
-    left: 50%;
-    top: 110%;
-    transform: translate(-50%, 0);
-}
 
 /* tab2 end */
 
 /* tab4 start */
-.content4 {}
-.content4 .line{
-    border-bottom: 1px solid #cecece;
-    margin-top: 12px;
-    margin-bottom: 25px;
-}
-.content4 .mainTitle{
-    display: flex;
-    justify-content: space-between;
-}
-.content4 .mainTitle p:first-child{
-    font-size: 20px;
-    font-weight: 800;
-}
-.content4 .group-1{
-    display: flex;
-    justify-content: left;
-}
-.content4 .group-1 .left{
-    width: 468px;
-    height: 236px;
-    background-color: #cecece;
-    margin-bottom: 38px;
-}
-/* .content4 .group-1 .left > img{} */
-.content4 .group-1 .right{
-    padding-left: 48px;
-}
-.content4 .group-1 .right > p{}
-.content4 .group-1 .right > strong{
-    display: block;
-    font-size: 22px;
-    font-weight: 700;
-    padding-top: 6px;
-}
 
 /* tab4 end */
