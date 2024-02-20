@@ -71,7 +71,10 @@ body {
     font-weight: 600;
 }
 
-.box-text2{}
+.box-text2{
+    padding-top: 60px;
+    height: 30px;
+}
 .box-text2 > ul{
     display: flex;
     justify-content: space-between;
