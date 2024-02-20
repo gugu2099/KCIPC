@@ -1,16 +1,16 @@
 
 .back{
-    background: url(/subpage1/image/bg1.png) no-repeat center center;
+    /* background: url(/subpage1/image/bg1.png) no-repeat center center; */
     background-size: cover;
     width: 100%;
     height: 660px;
     position: relative;
 }
-/* .bg1{
+.bg1{
     width: 100%;
 	background-size: cover;
     height: 600px;
-} */
+}
 /* tab start */
 .tab {
     position: absolute;

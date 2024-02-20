@@ -6,11 +6,11 @@
     height: 660px;
     position: relative;
 }
-/* .bg1{
+.bg1{
     width: 100%;
 	background-size: cover;
-    height: 600px;
-} */
+    height: 660px;
+}
 /* tab start */
 .tab {
     position: absolute;
