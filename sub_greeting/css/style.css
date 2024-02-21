@@ -1,6 +1,6 @@
 
-
-#back{
+/* page1 */
+#page1{
     background-size: cover;
     padding-top: 20px;
     position: relative;
@@ -90,6 +90,39 @@
     font-weight: 100;
     line-height: 27px;
     padding-top: 20px;
+}
+
+/* page2 */
+#page2{
+    padding-top: 80px;
+}
+.container{
+    margin: 0 auto;
+    width: 1192px;
+    display: flex;
+    justify-content: space-between;
+}
+.container > .left{
+    width: 40%;
+}
+.container > .left > img{
+    display: block;
+    width: 384px;
+    height: 384px;
+    background-color: #cecece;
+}
+.container > .right{
+    width: 60%;
+}
+.container > .right > .content1{
+
+}
+.container > .right > .content1 > p{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    word-break: keep-all;
 }
 
 /* tab start */
