@@ -1,4 +1,6 @@
-#back{
+
+/* page1 */
+#page1{
     background-size: cover;
     padding-top: 20px;
     position: relative;
@@ -88,4 +90,52 @@
     font-weight: 100;
     line-height: 27px;
     padding-top: 20px;
+}
+
+/* page2 */
+
+#page2{
+    margin-top: 110px;
+    text-align: center;
+}
+#page2 > h2{
+    display: block;
+    color: #000000;
+    font-size: 34px;
+    font-weight: 700;
+    padding-bottom: 78px;
+}
+#page2 > .article{
+    display: flex;
+    justify-content: center;
+}
+#page2 > .article .left{}
+#page2 > .article .left > img{
+    width: 83px;
+}
+
+#page2 > .article .center{
+    width: 539px;
+    height: 338px;
+    margin-top: 23px;
+    border: 1.5px solid #ddd;
+    -webkit-box-sizing: border-box;
+}
+#page2 > .article .center > .font-group{}
+#page2 > .article .center > .font-group > img{
+    width: 80px;
+    transform: translate(0, 100%);
+}
+
+#page2 > .article .right{}
+#page2 > .article .right > img{
+    width: 60px;
+}
+
+
+#page2 > .article .left > img,
+#page2 > .article .right > img{
+    display: block;
+    width: 539px;
+    height: 338px;
 }
