@@ -114,16 +114,23 @@
 .container > .right{
     width: 60%;
 }
-.container > .right > .content1{
-
-}
-.container > .right > .content1 > p{
+.content1{}
+.content1 > p{
     line-height: 24px;
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 30px;
     word-break: keep-all;
 }
+.content1 > p:last-child{
+    margin-bottom: 0;
+    color: #7e7e7e;
+}
+.content1 > p > span{
+    font-weight: 900;
+}
+
+
 
 /* tab start */
 /* .tab {

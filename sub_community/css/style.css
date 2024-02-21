@@ -1,4 +1,6 @@
-#back{
+
+/* page1 */
+#page1{
     background-size: cover;
     padding-top: 20px;
     position: relative;
@@ -88,4 +90,47 @@
     font-weight: 100;
     line-height: 27px;
     padding-top: 20px;
+}
+
+
+/* page2 */
+#page2 {
+    padding-top: 80px;
+}
+#page2 > .article{
+    width: 1192px;
+    margin: 0 auto;
+}
+#page2 .line{
+    border-bottom: 1px solid #cecece;
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+#page2 .mainTitle{
+    display: flex;
+    justify-content: space-between;
+}
+#page2 .mainTitle p:first-child{
+    font-size: 20px;
+    font-weight: 800;
+}
+#page2 .group-1{
+    display: flex;
+    justify-content: left;
+}
+#page2 .group-1 .left{
+    width: 468px;
+    height: 236px;
+    background-color: #cecece;
+    margin-bottom: 38px;
+}
+#page2 .group-1 .right{
+    padding-left: 48px;
+}
+#page2 .group-1 .right > p{}
+#page2 .group-1 .right > strong{
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 6px;
 }

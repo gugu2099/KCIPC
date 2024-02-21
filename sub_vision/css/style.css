@@ -1,5 +1,6 @@
 
-#back{
+/* page1 */
+#page1{
     background-size: cover;
     padding-top: 20px;
     position: relative;
@@ -89,4 +90,65 @@
     font-weight: 100;
     line-height: 27px;
     padding-top: 20px;
+}
+
+/* page2 */
+#page2{
+    padding-top: 80px;
+    text-align: center;
+}
+#page2 > .box2{}
+#page2 > .box2 > .container{
+    margin: 0 auto;
+}
+#page2 > .box2 > .container > .sort1{
+    display: flex;
+    justify-content: space-between;
+    width: 1192px;
+}
+#page2 .box2 .container > .sort1 > li{
+    -webkit-box-sizing: border-box;
+    border: 9px solid #008EC6;
+    border-radius: 50%;
+    width: 310px;
+    height: 310px;
+    position: relative;
+}
+#page2 .box2 .container > .sort1 > li > img{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 34%;
+    transform: translate(-50%, -50%);
+}
+#page2 .box2 .container > .sort1 > li > p{
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+#page2 .box2 .container > .sort1 > li > strong{
+    font-size: 38px;
+    font-weight: 800;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 72%;
+    transform: translate(-50%, -50%);
+}
+#page2 .box2 .container > .sort1 > li > strong > span{
+    color: #008EC6;
+}
+#page2 .box2 .container > .sort1 > li > span{
+    font-weight: 500;
+    width: 250px;
+    line-height: 28px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translate(-50%, 0);
 }
