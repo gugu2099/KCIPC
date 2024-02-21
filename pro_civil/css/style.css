@@ -1,0 +1,93 @@
+
+
+#back{
+    background-size: cover;
+    padding-top: 20px;
+    position: relative;
+}
+.bg2{
+    width: 100%;
+	background-size: cover;
+    height: 580px;
+}
+.group{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 0;
+    width: 1192px;
+    text-align: center;
+    display: flex;
+}
+.group > .box{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+    border-top: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    -webkit-box-sizing: border-box;
+}
+.group > .box:first-child{
+    border-left: 1px solid #cecece;
+}
+
+.group > .box:nth-child(1){
+    background-color: #008EC6;
+    color: #fff;
+    border: none;
+    -webkit-box-sizing: border-box;
+}
+.group > .box:nth-child(1) > a{
+    color: #fff;
+}
+
+.group > .box > a{
+    display: block;
+    font-size: 20px;
+    color: #111111;
+}
+.group > .box:hover{
+    background-color: #008EC6;
+    border: none;
+    /* border: 1px solid #008EC6; */
+}
+.group > .box:hover > a{
+    color: #fff;
+}
+
+.content-title{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.content-title > h2{
+    display: block;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    padding-bottom: 78px;
+}
+.content-title > strong{
+    display: block;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+.content-title > strong > span{
+    color: #008ec6;
+    padding-left: 6px;
+}
+.content-title > p{
+    width: 600px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 27px;
+    padding-top: 20px;
+    word-break: keep-all;
+}
