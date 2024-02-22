@@ -38,13 +38,13 @@ input:-moz-input-placeholder {color: #a8a8a8;}
     border-left: 1px solid #cecece;
 }
 
-.group > .box:nth-child(2){
+.group > .box:nth-child(4){
     background-color: #008EC6;
     color: #fff;
     border: none;
     -webkit-box-sizing: border-box;
 }
-.group > .box:nth-child(2) > a{
+.group > .box:nth-child(4) > a{
     color: #fff;
 }
 
