@@ -18,27 +18,27 @@ window.addEventListener('load', function() {
 
 
 // tab start
-// const tabItem = document.querySelectorAll(".tab__item");
-// const tabContent = document.querySelectorAll(".tab__content");
+const tabItem = document.querySelectorAll(".tab__item");
+const tabContent = document.querySelectorAll(".tab__content");
 
-//     tabItem.forEach((item, index) => {
+    tabItem.forEach((item, index) => {
 
-//     item.addEventListener("click", (e) => {
+    item.addEventListener("click", (e) => {
 
-//         e.preventDefault(); // a 
+        e.preventDefault(); // a 
         
 
-//         tabContent.forEach((content) => {
+        tabContent.forEach((content) => {
 
-//         content.classList.remove("active");
-//         });
+        content.classList.remove("active");
+        });
 
-//         tabItem.forEach((content) => {
-//         content.classList.remove("active");
-//         });
+        tabItem.forEach((content) => {
+        content.classList.remove("active");
+        });
 
-//         tabItem[index].classList.add("active");
-//         tabContent[index].classList.add("active");
-//     });
-// });
+        tabItem[index].classList.add("active");
+        tabContent[index].classList.add("active");
+    });
+});
 // tab end
