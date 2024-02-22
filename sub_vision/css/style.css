@@ -96,6 +96,7 @@
 #page2{
     padding-top: 80px;
     text-align: center;
+    padding-bottom: 300px;
 }
 #page2 > .box2{}
 #page2 > .box2 > .container{
