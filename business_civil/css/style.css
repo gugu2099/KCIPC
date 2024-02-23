@@ -22,13 +22,17 @@ input:-moz-input-placeholder {color: #a8a8a8;}
     display: flex;
     flex-direction: column;
     justify-content: center;
-    cursor: pointer;
     width: 172px;
     height: 172px;
     margin: 0 auto;
     text-align: center;
     border: 1px solid #d9d9d9;
     border-radius: 50%;
+}
+
+/* a태그 클릭 이벤트 수정할것 */
+.menu > a{
+    
 }
 
 .article > .menu > .i-group{
@@ -41,15 +45,6 @@ input:-moz-input-placeholder {color: #a8a8a8;}
     top: 16px;
     transform: translate(-50%, -50%);
 }
-/* .menu.active > .i-group > img:first-child{
-    display: none;
-}
-.menu > .i-group > img:nth-child(2){
-    display: none;
-}
-.menu.active > .i-group > img:nth-child(2){
-    display: block;
-} */
 .menu:nth-child(1){
     background-color: #00a3e0;
 }
