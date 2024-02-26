@@ -19,7 +19,7 @@ window.addEventListener('load', function() {
 // header start /jquery
 $(function() { // 보이기 | 숨기기
     $(window).scroll(function() {
-    if ($(this).scrollTop() > 500) { //500 넘으면 버튼이 사라집니다. 
+    if ($(this).scrollTop() > 800) { //500 넘으면 버튼이 사라집니다. 
     $('#header').fadeOut();
     } else {
     $('#header').fadeIn();
