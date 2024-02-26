@@ -11,9 +11,12 @@ input:-moz-input-placeholder {color: #a8a8a8;}
     position: relative;
 }
 .bg1{
-    width: 100%;
 	background-size: cover;
     height: 580px;
+    background-color: #008ec6;
+    background: url(https://github.com/gugu2099/KCIPC/assets/141696429/478e59aa-0cb3-4eb2-9b8d-1730de8f00e0) center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .group{
     position: absolute;
