@@ -29,7 +29,7 @@ body {
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* top start */
-a#topBtn { 
+#topBtn { 
 	position: fixed; /* 포지션 고정 */ 
 	right: 6%; /* 오른쪽에서 2% - %도 할수 있음*/ 
 	bottom: 50px; /* 밑에서 5px */ 
