@@ -16,10 +16,27 @@ window.addEventListener('load', function() {
 });
 
 
-// top start
+// header start /jquery
 $(function() { // 보이기 | 숨기기
     $(window).scroll(function() {
-    if ($(this).scrollTop() > 250) { //250 넘으면 버튼이 보여짐니다. 
+    if ($(this).scrollTop() > 500) { //500 넘으면 버튼이 사라집니다. 
+    $('#header').fadeOut();
+    } else {
+    $('#header').fadeIn();
+    }
+}); // 버튼 클릭시 
+$("#header").click(function() { 
+    $('html, body').animate({ scrollTop : 0 // 0 까지 animation 이동합니다. 
+    }, 600); // 속도 400 
+    return false; 
+}); 
+});
+// header end
+
+// top start /jquery
+$(function() { // 보이기 | 숨기기
+    $(window).scroll(function() {
+    if ($(this).scrollTop() > 250) { //250 넘으면 버튼이 보여집니다.
     $('#topBtn').fadeIn();
     } else {
     $('#topBtn').fadeOut();
@@ -27,7 +44,7 @@ $(function() { // 보이기 | 숨기기
 }); // 버튼 클릭시 
 $("#topBtn").click(function() { 
     $('html, body').animate({ scrollTop : 0 // 0 까지 animation 이동합니다. 
-    }, 600); // 속도 400 
+    }, 800, 'easeOutCubic'); // 속도 400 
     return false; 
 }); 
 });
