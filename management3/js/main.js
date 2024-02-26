@@ -21,6 +21,8 @@ var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     centeredSlides: true,
     loop : true,
+    speed : 1200,
+    effect: 'slide',
 
     autoplay: {
     delay: 2500,
