@@ -57,6 +57,23 @@ input:-moz-input-placeholder {color: #a8a8a8;}
 .tab > ul > li:nth-child(4) > a > .group > .text > p{
     color: #fff;
 }
+.tab > ul > li:hover > a{
+    background-color: #24AEE1;
+}
+.tab > ul > li:hover > a > .group > .text,
+.tab > ul > li:hover > a > .group > .text > p{
+    color: #fff;
+}
+
+li .group > img:nth-child(2){
+    display: none;
+}
+li:hover .group > img:nth-child(1){
+    display: none;
+}
+li:hover .group > img:nth-child(2){
+    display: block;
+}
 /* modify end*/
 
 .group > img{
@@ -74,6 +91,7 @@ input:-moz-input-placeholder {color: #a8a8a8;}
     font-size: 20px;
     font-weight: 700;
     padding-top: 20px;
+    width: 100%;
 }
 .text > p{
     font-size: 12px;

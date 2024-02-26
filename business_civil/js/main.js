@@ -14,34 +14,3 @@ window.addEventListener('load', function() {
         }
     });
 });
-
-
-
-// tab start
-// const tabItem = document.querySelectorAll(".tab__item");
-// const tabContent = document.querySelectorAll(".tab__content");
-
-//     tabItem.forEach((item, index) => {
-
-//     item.addEventListener("click", (e) => {
-
-//         e.preventDefault(); // a 
-        
-
-//         tabContent.forEach((content) => {
-//         content.classList.remove("active");
-//         });
-
-//         tabItem.forEach((content) => {
-//         content.classList.remove("active");
-//         });
-
-//         tabItem[index].classList.add("active");
-//         tabContent[index].classList.add("active");
-//     });
-// });
-// tab end
-
-// tab image change start
-
-// tab image change end
