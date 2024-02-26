@@ -29,24 +29,29 @@ input:-moz-input-placeholder {color: #a8a8a8;}
 .hello > li > a{
     display: block;
     width: 240px;
+    -webkit-box-sizing: border-box;
 }
 .hello > li:first-child > a{
     font-size: 20px;
     padding: 20px 0;
     /* line-height: 20px; */
-    border: 1px solid #757575;
+    border-top: 1px solid #757575;
+    border-bottom: 1px solid #757575;
+    border-left: 1px solid #757575;
     color: #3f3f3f;
 }
 .hello > li:last-child > a{
     font-size: 20px;
     padding: 20px 0;
     /* line-height: 20px; */
-    border: 1px solid #757575;
+    border: 1px solid #24aee1;
     background-color: #24aee1;
     color: #fff;
 }
-.hello > li:first-child > a:hover{
+.hello > li:first-child > a:hover,
+.hello > li:last-child > a:hover{
     background-color: #24aee1;
+    border: 1px solid #24aee1;
     color: #fff ;
 }
 /*  */
