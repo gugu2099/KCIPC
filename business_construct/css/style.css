@@ -13,7 +13,7 @@ input:-moz-input-placeholder {color: #a8a8a8;}
 }
 
 .tab{
-    width: 1192px;
+    width: 800px;
     margin: 0 auto;
     text-align: center;
 }
@@ -61,6 +61,7 @@ input:-moz-input-placeholder {color: #a8a8a8;}
     background-color: #24AEE1;
 }
 .tab > ul > li:hover > a > .group > .text,
+.tab > ul > li:hover > a > .group > .text > span,
 .tab > ul > li:hover > a > .group > .text > p{
     color: #fff;
 }
@@ -93,6 +94,9 @@ li:hover .group > img:nth-child(2){
     font-weight: 700;
     padding-top: 20px;
     width: 100%;
+}
+.text > span{
+    font-size: 14px;
 }
 .text > p{
     font-size: 12px;
