@@ -4,13 +4,18 @@
     background-size: cover;
     position: relative;
 }
-.bg1{
+/* .bg1{
 	background-size: cover;
     height: 580px;
     background-color: #008ec6;
     background: url(https://github.com/gugu2099/KCIPC/assets/141696429/eed49475-3543-464e-8f2b-86a6f810466c) center center;
     background-size: cover;
     background-attachment: fixed;
+} */
+.bg1{
+    width: 100%;
+	background-size: cover;
+    height: 580px;
 }
 .group{
     position: absolute;

@@ -60,16 +60,18 @@ body {
 #gnb:hover {
     background-color: #fff;
 }
-/* border-bottom: 1.5px solid #cecece; */
 
 
-#gnb:hover > .aside > h1 > a > img:first-child {
+#gnb:hover > .aside{
+    border-bottom: 1.5px solid #cecece;
+}
+#gnb:hover > .aside > h1 > a > img:first-child{
     display: none;
 }
-#gnb > .aside > h1 > a > img:last-child {
+#gnb > .aside > h1 > a > img:last-child{
     display: none;
 }
-#gnb:hover > .aside > h1 > a > img:last-child {
+#gnb:hover > .aside > h1 > a > img:last-child{
     display: block;
 }
 #gnb:hover .aside .a-group .aside-02 > li > a{
@@ -84,20 +86,17 @@ body {
     justify-content: space-between;
 }
 #gnb .aside h1 {
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-#gnb .aside h1 a {
-    display: block;
-}
+#gnb .aside h1 a {}
 #gnb .aside h1 a img {
     line-height: 80px;
     width: 220px;
 }
 #gnb .aside .a-group {
-    width: 90%;
+    width: 70%;
 }
 #gnb .aside .a-group > div {
     display: flex;
@@ -168,14 +167,14 @@ body {
 }
 #gnb .aside .a-group .aside-02 > li:hover > a::after{
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     left: 0;
     content: "";
     display: block;
     width: 100%;
     background-color: #00A3E0;
     height: 2px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 #gnb .aside .a-group .aside-02 > li > a:disabled {
     background-color: #ff0000;
