@@ -43,6 +43,25 @@ body {
     z-index: 999999;
     /* border-bottom: 1.5px solid #f3f3f3; */
 }
+
+#gnb:hover {
+    background-color: #fff;
+}
+
+
+#gnb:hover > .aside > h1 > a > img:first-child {
+    display: none;
+}
+#gnb > .aside > h1 > a > img:last-child {
+    display: none;
+}
+#gnb:hover > .aside > h1 > a > img:last-child {
+    display: block;
+}
+#gnb:hover .aside .a-group .aside-02 > li > a{
+    color: #000;
+}
+
 #gnb .aside {
     max-width: 1280px;
     height: 80px;
@@ -87,6 +106,7 @@ body {
     font-size: 18px;
     line-height: 80px;
 }
+
 #gnb .aside .a-group .aside-02 > li > a:hover,
 #gnb .aside .a-group .aside-03 > li > a:hover {
     font-weight: 700;
@@ -159,10 +179,10 @@ body {
     transition: 0.6s;
 }
 
-#gnb .aside .a-group .aside-02:hover > li .aside-03 {
+#gnb:hover .aside .a-group .aside-02 > li .aside-03 {
     height: 240px;
     padding-top: 20px;
 }
-#gnb .aside .a-group .aside-02:hover + .nav-bg {
+#gnb:hover .aside .a-group .aside-02 + .nav-bg {
     height: 280px;
 }
