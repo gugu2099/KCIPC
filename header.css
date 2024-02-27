@@ -42,6 +42,21 @@ body {
     z-index: 999999;
 }
 
+/* scrolled */
+/* 스크롤된 후의 배경색 */
+#gnb.scrolled {
+    background-color: #fff; 
+}
+#gnb.scrolled > .aside > h1 > a > img:first-child{
+    display: none;
+}
+#gnb.scrolled > .aside > h1 > a > img:last-child{
+    display: block;
+}
+#gnb.scrolled .aside .a-group .aside-02 > li > a{
+    color: #000;
+}
+
 #gnb:hover {
     background-color: #fff;
 }

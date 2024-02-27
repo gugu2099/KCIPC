@@ -16,43 +16,35 @@ window.addEventListener('load', function() {
 });
 
 
-// header start /jquery
-$(function() { // 보이기 | 숨기기
-    $(window).scroll(function() {
-    if ($(this).scrollTop() > 800) { //500 넘으면 버튼이 사라집니다. 
-    $('#header').fadeOut();
+
+window.addEventListener('scroll', function() {
+    var header = document.getElementById('gnb');
+    var scrollPosition = window.scrollY;
+
+    // 특정 스크롤 위치 이상에서 헤더 스타일 변경
+    if (scrollPosition > 190) {
+        header.classList.add('scrolled');
     } else {
-    $('#header').fadeIn();
+        header.classList.remove('scrolled');
     }
-}); // 버튼 클릭시 
-$("#header").click(function() { 
-    $('html, body').animate({ scrollTop : 0 // 0 까지 animation 이동합니다. 
-    }, 600, 'easeOutCubic'); // 속도 400 
-    return false; 
-}); 
 });
+
+
+
+// header start /jquery 헤더 스크롤다운 시 사라짐
+// $(function() { 
+//     $(window).scroll(function() {
+//     if ($(this).scrollTop() > 800) { 
+//     $('#header').fadeOut();
+//     } else {
+//     $('#header').fadeIn();
+//     }
+// });
+// $("#header").click(function() { 
+//     $('html, body').animate({ scrollTop : 0 
+//     }, 600, 'easeOutCubic');  
+//     return false; 
+// }); 
+// });
 // header end
 
-
-
-
-
-
-
-
-// top start /jquery
-$(function() { // 보이기 | 숨기기
-    $(window).scroll(function() {
-    if ($(this).scrollTop() > 250) { //250 넘으면 버튼이 보여집니다.
-    $('#topBtn').fadeIn();
-    } else {
-    $('#topBtn').fadeOut();
-    }
-}); // 버튼 클릭시 
-$("#topBtn").click(function() { 
-    $('html, body').animate({ scrollTop : 0 // 0 까지 animation 이동합니다. 
-    }, 800, 'easeOutCubic'); // 속도 400 
-    return false; 
-}); 
-});
-// top end
