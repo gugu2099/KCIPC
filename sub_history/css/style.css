@@ -264,7 +264,7 @@
 .tab__item > a{
     display: block;
     padding-top: 20px;
-    font-size: 16px;
+    font-size: 18px;
     color: #a8a8a8;
 }
 .tab__item.active > a{
