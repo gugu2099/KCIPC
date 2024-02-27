@@ -20,11 +20,12 @@
 .group{
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, 50%); /*tab 반걸침 수정함*/
     bottom: 0;
     width: 1192px;
     text-align: center;
     display: flex;
+    box-shadow: 0 2px 15px -5px rgba(0,0,0,0.3); /*그림자*/
 }
 .group > .box{
     width: 100%;
