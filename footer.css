@@ -42,19 +42,19 @@ body {
     padding-top: 64px;
     /* transform: translate(0, 50%); */
 }
-.box1{
+#footer-group > .box1{
     padding-bottom: 30px;
 }
-.box1 > h3{}
-.box1 > h3 > a{
+#footer-group > .box1 > h3{}
+#footer-group > .box1 > h3 > a{
     display: block;
 }
-.box1 > h3 > a > img{
+#footer-group > .box1 > h3 > a > img{
     width: 205px;
     display: block;
 }
 
-.box2{
+#footer-group >.box2{
     display: flex;
     justify-content: space-between;
 }
