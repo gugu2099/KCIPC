@@ -13,7 +13,7 @@
 .bg2{
     width: 100%;
 	background-size: cover;
-    height: 580px;
+    height: 420px; /*수정*/
 }
 .group{
     position: absolute;
@@ -39,13 +39,13 @@
     border-left: 1px solid #cecece;
 }
 
-.group > .box:nth-child(4){
+.group > .box:nth-child(5){
     background-color: #008EC6;
     color: #fff;
     border: none;
     -webkit-box-sizing: border-box;
 }
-.group > .box:nth-child(4) > a{
+.group > .box:nth-child(5) > a{
     color: #fff;
 }
 
@@ -75,25 +75,25 @@
     color: #fff;
     font-size: 42px;
     font-weight: 700;
-    padding-bottom: 78px;
+    padding-bottom: 45px; /*수정*/
 }
-.content-title > strong{
+.content-title > strong,
+.content-title > b{
     display: block;
     color: #fff;
     font-size: 22px;
     font-weight: 700;
     padding-bottom: 8px;
 }
-.content-title > strong > span{
+.content-title > strong > span,
+.content-title > b > span{
     color: #008ec6;
     padding-left: 6px;
 }
 .content-title > p{
-    width: 600px;
     color: #fff;
     font-size: 18px;
     font-weight: 100;
     line-height: 27px;
-    padding-top: 20px;
-    word-break: keep-all;
+    padding-top: 10px; /*수정*/
 }

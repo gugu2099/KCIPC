@@ -20,7 +20,7 @@ input:-moz-input-placeholder {color: #a8a8a8;}
 .bg1{
     width: 100%;
 	background-size: cover;
-    height: 580px;
+    height: 420px; /*수정*/
 }
 .group{
     position: absolute;
@@ -82,7 +82,7 @@ input:-moz-input-placeholder {color: #a8a8a8;}
     color: #fff;
     font-size: 42px;
     font-weight: 700;
-    padding-bottom: 78px;
+    padding-bottom: 45px; /*수정*/
 }
 .content-title > strong,
 .content-title > b{
@@ -102,9 +102,8 @@ input:-moz-input-placeholder {color: #a8a8a8;}
     font-size: 18px;
     font-weight: 100;
     line-height: 27px;
-    padding-top: 20px;
+    padding-top: 10px; /*수정*/
 }
-
 
 
 
