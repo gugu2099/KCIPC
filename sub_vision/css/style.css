@@ -114,6 +114,7 @@
     display: flex;
     justify-content: space-between;
     width: 1192px;
+    margin: 0 auto;
 }
 #page2 .box2 .container > .sort1 > li{
     -webkit-box-sizing: border-box;
