@@ -2,13 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* swiperjs */
-.swiper {
+.first{
     width: 100%;
     height: 100%;
     position: absolute;
 }
-
-.swiper-slide {
+.second{
+    width: 1192px;
+    height: 450px;
+}
+.first .swiper-slide,
+.second .swiper-slide{
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -16,12 +20,28 @@
     justify-content: center;
     align-items: center;
 }
-
-.swiper-slide img {
+.first .swiper-slide img,
+.second .swiper-slide img{
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.second{}
+.second .button-group .button-group{}
+.second .button-group .swiper-button-next{}
+.second .button-group .swiper-button-prev{}
+
+.second .button-group .swiper-button-next > img,
+.second .button-group .swiper-button-prev > img{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after,
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    display: none;
 }
 
 /* tabmenu start */
@@ -79,9 +99,6 @@
 /* page2 start */
 
 
-
-
-
 #page2{
     max-width: 1192px;
     margin: 0 auto;
@@ -134,7 +151,7 @@
     display: block;
     width: 380px;
     height: 360px;
-    background-color: #fff;
+    background-color: #9f9f9f;
 }
 .box9{
     display: block;

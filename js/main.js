@@ -16,7 +16,6 @@ window.addEventListener('load', function() {
 });
 
 
-
 window.addEventListener('scroll', function() {
     var header = document.getElementById('gnb');
     var scrollPosition = window.scrollY;
@@ -30,9 +29,19 @@ window.addEventListener('scroll', function() {
 });
 
 
+var swiper = new Swiper(".first", {
+    spaceBetween: 0,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+});
 
-var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
+
+var swiper = new Swiper(".second", {
+    spaceBetween: 0,
     centeredSlides: true,
     loop: true,
     autoplay: {
