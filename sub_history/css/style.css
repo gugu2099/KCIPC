@@ -217,15 +217,8 @@
 }
 
 /* page3 */
-#page3{}
-#page3 > h2{
-    text-align: center;
-    display: block;
-    color: #000000;
-    font-size: 34px;
-    font-weight: 700;
-    padding-top: 180px;
-    padding-bottom: 100px;
+#page3{
+    padding-top: 120px;
 }
 
 /* tab start */

@@ -106,6 +106,13 @@
     text-align: center;
     padding-bottom: 300px;
 }
+#page2 > h2 {
+    display: block;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 78px;
+}
 #page2 > .box2{}
 #page2 > .box2 > .container{
     margin: 0 auto;
