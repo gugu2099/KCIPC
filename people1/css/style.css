@@ -16,7 +16,7 @@
     width: 100%;
 	background-size: cover;
     height: 420px; /*수정*/
-    margin-top: 60px;
+    margin-top: 70px;
 }
 .group{
     position: absolute;
@@ -71,7 +71,6 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
 }
 .content-title > h2{
     display: block;
