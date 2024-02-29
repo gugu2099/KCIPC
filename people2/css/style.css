@@ -42,13 +42,13 @@
     border-left: 1px solid #cecece;
 }
 
-.group > .box:nth-child(4){
+.group > .box:nth-child(3){
     background-color: #008EC6;
     color: #fff;
     border: none;
     -webkit-box-sizing: border-box;
 }
-.group > .box:nth-child(4) > a{
+.group > .box:nth-child(3) > a{
     color: #fff;
 }
 
