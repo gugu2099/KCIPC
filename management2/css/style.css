@@ -107,6 +107,19 @@ input:-moz-input-placeholder {color: #a8a8a8;}
 }
 
 
+#page2{
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#page2 > h2{
+    text-align: center;
+    display: block;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 78px;
+}
+
 
 /*  */
 /* .hi{

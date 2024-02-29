@@ -107,57 +107,23 @@ input:-moz-input-placeholder {color: #a8a8a8;}
     padding-top: 10px; /*수정*/
 }
 
-/* Swiper */
-
-/* html,
-body {
-    position: relative;
-    height: 100%;
+#page2{
+    margin: 0 auto;
+    padding: 100px 0;
 }
-
-body {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-}
-.swiper {
-    margin-top: 80px;
-    margin-bottom: 300px;
-    width: 100%;
-    height: 100%;
-}
-.swiper-slide {
+#page2 > h2{
     text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-.swiper-slide img {
-    position: absolute;
-    top: 0;
-    right: 26%;
-    width: 850px;
     display: block;
-    object-fit: cover;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    /* padding-bottom: 78px; */
 }
-.swiper-slide .text-box {
-    position: absolute;
-    left: 26%;
-    top: 0;
-    width: 420px;
-    height: 420px;
-    background-color: #008EC6;
-} */
 
+/* swiper */
 .swiper {
     width: 1192px;
-    height: 800px;
+    height: 500px;
     margin-bottom: 300px;
 }
 .swiper-slide {
