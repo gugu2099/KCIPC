@@ -21,6 +21,7 @@ input:-moz-input-placeholder {color: #a8a8a8;}
     width: 100%;
 	background-size: cover;
     height: 420px; /*수정*/
+    margin-top: 60px;
 }
 .group{
     position: absolute;

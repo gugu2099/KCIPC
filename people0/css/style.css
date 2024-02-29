@@ -16,6 +16,7 @@
     width: 100%;
 	background-size: cover;
     height: 420px; /*수정*/
+    margin-top: 60px;
 }
 .group{
     position: absolute;
@@ -41,13 +42,13 @@
     border-left: 1px solid #cecece;
 }
 
-.group > .box:nth-child(4){
+.group > .box:nth-child(1){
     background-color: #008EC6;
     color: #fff;
     border: none;
     -webkit-box-sizing: border-box;
 }
-.group > .box:nth-child(4) > a{
+.group > .box:nth-child(1) > a{
     color: #fff;
 }
 
@@ -101,51 +102,54 @@
 }
 
 /* page2 */
-#page2 {
+
+
+/* page3 */
+#page3 {
     padding-bottom: 300px;
     margin: 0 auto;
     margin-top: 100px;
     text-align: center;
 }
-#page2 > h2{
+#page3 > h2{
     display: block;
     color: #000000;
     font-size: 30px;
     font-weight: 700;
     padding-bottom: 78px;
 }
-#page2 > .article{
+#page3 > .article{
     width: 1192px;
     margin: 0 auto;
 }
-#page2 .line{
+#page3 .line{
     border-bottom: 1px solid #cecece;
     margin-top: 12px;
     margin-bottom: 25px;
 }
-#page2 .mainTitle{
+#page3 .mainTitle{
     display: flex;
     justify-content: space-between;
 }
-#page2 .mainTitle p:first-child{
+#page3 .mainTitle p:first-child{
     font-size: 20px;
     font-weight: 800;
 }
-#page2 .group-1{
+#page3 .group-1{
     display: flex;
     justify-content: left;
 }
-#page2 .group-1 .left{
+#page3 .group-1 .left{
     width: 468px;
     height: 236px;
     background-color: #cecece;
     margin-bottom: 38px;
 }
-#page2 .group-1 .right{
+#page3 .group-1 .right{
     padding-left: 48px;
 }
-#page2 .group-1 .right > p{}
-#page2 .group-1 .right > strong{
+#page3 .group-1 .right > p{}
+#page3 .group-1 .right > strong{
     display: block;
     font-size: 22px;
     font-weight: 700;
