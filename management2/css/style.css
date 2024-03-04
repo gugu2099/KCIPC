@@ -106,7 +106,7 @@ input:-moz-input-placeholder {color: #a8a8a8;}
     padding-top: 10px; /*수정*/
 }
 
-
+/* page2 */
 #page2{
     margin: 0 auto;
     padding: 100px 0;
@@ -117,134 +117,76 @@ input:-moz-input-placeholder {color: #a8a8a8;}
     color: #000000;
     font-size: 30px;
     font-weight: 700;
-    padding-bottom: 78px;
 }
 
-
-/*  */
-/* .hi{
-    margin-top: 180px;
-    margin-bottom: 100px;
-    font-size: 46px;
-    font-weight: 800;
-    text-align: center;
+/* tab start */
+.tab {
+    max-width: 1192px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
 }
-.hello{
-    width: 1192px;
+.tab__item,
+.tab__item.active {
+    border: 1px solid #d9d9d9;
+}
+.tab__item {
+    width: 260px;
+    height: 260px;
     margin: 0 auto;
     text-align: center;
-    display: flex;
-    justify-content: center;
+    border-radius: 50%;
+    position: relative;
 }
-.hello > li{}
-.hello > li > a{
-    display: block;
-    width: 240px;
+.tab__item.active {
+    background-color: #00A3E0;
 }
-.hello > li:nth-child(2) > a{
-    font-size: 20px;
-    padding: 20px 0;
-    border: 1px solid #24aee1;
-    background-color: #24aee1;
+.tab__item.active > a{
     color: #fff;
 }
-.hello > li:nth-child(1) > a,
-.hello > li:nth-child(3) > a,
-.hello > li:nth-child(4) > a{
-    font-size: 20px;
-    padding: 20px 0;
-    border: 1px solid #757575;
-    border-right: none;
-    color: #3f3f3f;
+.tab-group{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
-.hello > li:nth-child(4) > a{
-    border-right: 1px solid #757575;
+.tab-group > p{
+    padding-top: 20px;
 }
-.hello > li:nth-child(1) > a:hover,
-.hello > li:nth-child(3) > a:hover,
-.hello > li:nth-child(4) > a:hover{
-    background-color: #24aee1;
-    color: #fff ;
-} */
-
-/*  */
-
-
-/* contianer start */
-/* .contianer{
-    margin-top: 100px;
-}
-.contianer > ul > li{}
-.contianer > ul > li > img{}
-.contianer > ul > li > p{} */
-/* contianer end */
-
-
-/* .tabmenu{ 
-max-width: 1192px;
-margin: 0 auto; 
-}
-.tabmenu ul{
-position: relative;
-text-align: center;
-padding-top: 100px;
-}
-.tabmenu ul li{
-display: inline-block;
-max-width: 100%;
-text-align:center; 
-line-height:40px;
-padding-right: 20px;
-}
-.tabmenu ul li:last-child{
-padding-right: 0;
-}
-.tabmenu label{
-display:block;
-width:100%;
-height:40px;
-line-height:40px;
-cursor: pointer;
-}
-.tabmenu input{
-width: 100%;
-display:none;
-}
-.tabCon{
-position:absolute; 
-display: none; 
-width: 100%;
-text-align: left; 
-left:0;
-box-sizing: border-box; 
-}
-.tabmenu input:checked ~ label{
-font-weight: 900;
-}
-.tabmenu input:checked ~ .tabCon{
-display:block;
-}
-
-.tabCon > ul{
-    display: flex;
-    justify-content: space-between;
-}
-.tabCon > ul > li{}
-.tabCon > ul > li > img{
-    width: 276px;
-    height: 364px;
-    background-color: #a8a8a8;
-}
-.tabCon > ul > li > p{
-    font-size: 18px;
-    font-weight: 500;
-    text-align: left;
+.tab-group > span{
+    display: block;
     padding-top: 10px;
-} */
-/* tab1 end */
+}
 
+/* css */
+.tab__content-wrapper {
+    max-width: 1192px;
+    margin: 0 auto;
+    position: relative;
+}
+.tab__content {
+    display: none;
+}
+.tab__content.active {
+    display: block;
+}
 
+/* hover */
+.tab__item:hover > a{
+    background-color: #ccc;
+}
 
+/* tab end */
+
+/* tab common */
+.content1,
+.content2,
+.content3,
+.content4,
+.content5{
+    padding-top: 80px;
+}
 
 
 /* .footer{

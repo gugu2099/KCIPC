@@ -15,22 +15,27 @@ window.addEventListener('load', function() {
     });
 });
 
-// slider start
-// var swiper = new Swiper(".mySwiper", {
-//     spaceBetween: 30,
-//     centeredSlides: true,
-//     loop: true,
-//     autoplay: {
-//         delay: 2500,
-//         disableOnInteraction: false,
-//     },
-//     pagination: {
-//         el: ".swiper-pagination",
-//         clickable: true,
-//     },
-//     navigation: {
-//         nextEl: ".swiper-button-next",
-//         prevEl: ".swiper-button-prev",
-//     },
-// });
-  // slider end
+// tab start
+const tabItem = document.querySelectorAll(".tab__item");
+const tabContent = document.querySelectorAll(".tab__content");
+
+    tabItem.forEach((item, index) => {
+
+    item.addEventListener("click", (e) => {
+
+        e.preventDefault(); // a 
+        
+
+        tabContent.forEach((content) => {
+        content.classList.remove("active");
+        });
+
+        tabItem.forEach((content) => {
+        content.classList.remove("active");
+        });
+
+        tabItem[index].classList.add("active");
+        tabContent[index].classList.add("active");
+    });
+});
+// tab end
