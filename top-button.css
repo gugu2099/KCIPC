@@ -1,0 +1,23 @@
+#topBtn {
+    display: none; /* Hide button by default */
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* 20px from bottom */
+    right: 30px; /* 30px from right */
+    z-index: 99999; /* Make sure it's above other elements */
+    border: none; /* No border */
+    outline: none; /* No outline */
+    background-color: #555; /* Background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor */
+    padding: 15px; /* Padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+#topBtn:hover {
+    background-color: #333; /* Darker background color on hover */
+}
+
+#content{
+    /* height: 300vh; */
+}

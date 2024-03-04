@@ -1,3 +1,5 @@
+
+
 window.addEventListener('load', function() {
     var allElements = document.getElementsByTagName('*');
     Array.prototype.forEach.call(allElements, function(el) {
@@ -58,6 +60,8 @@ var swiper = new Swiper(".second", {
 });
 
 
+
+
 // header start /jquery 헤더 스크롤다운 시 사라짐
 // $(function() { 
 //     $(window).scroll(function() {
@@ -74,4 +78,6 @@ var swiper = new Swiper(".second", {
 // }); 
 // });
 // header end
+
+
 
