@@ -234,8 +234,79 @@ input:-moz-input-placeholder {color: #a8a8a8;}
 }
 
 /* tab-content */
-.content1 > ul > li{
-    
+.content1 > ul,
+.content2 > ul,
+.content3 > ul,
+.content4 > ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.content1 > ul > li:last-child,
+.content2 > ul > li:last-child,
+.content3 > ul > li:last-child,
+.content4 > ul > li:last-child{
+    margin-right: 0;
+}
+.content1 > ul > li,
+.content2 > ul > li,
+.content3 > ul > li,
+.content4 > ul > li{
+    background-color: #b8b8b8;
+    width: 100%;
+    height: 283px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.content2 > ul > li{
+    background-color: #ccc;
+}
+.content3 > ul > li{
+    background-color: #999999;
+}
+.content4 > ul > li{
+    background-color: #777777;
+}
+
+.content1 > ul > li > a,
+.content2 > ul > li > a,
+.content3 > ul > li > a,
+.content4 > ul > li > a{
+    display: block;
+    padding-left: 20px;
+    height: 100%;
+}
+.content1 > ul > li > a > img{}
+.content2 > ul > li > a > img{}
+.content3 > ul > li > a > img{}
+.content4 > ul > li > a > img{}
+
+.content1 > ul > li > a > p,
+.content1 > ul > li > a > span,
+.content2 > ul > li > a > p,
+.content2 > ul > li > a > span,
+.content3 > ul > li > a > p,
+.content3 > ul > li > a > span,
+.content4 > ul > li > a > p,
+.content4 > ul > li > a > span{
+    display: block;
+    color: #fff;
+}
+.content1 > ul > li > a > p,
+.content2 > ul > li > a > p,
+.content3 > ul > li > a > p,
+.content4 > ul > li > a > p{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.content1 > ul > li > a > span,
+.content2 > ul > li > a > span,
+.content3 > ul > li > a > span,
+.content4 > ul > li > a > span{
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 10px;
 }
 
 /* .footer{
