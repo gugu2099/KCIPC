@@ -202,6 +202,7 @@
     width: 726px;
     background-color: #cecece;
 }
+#map{}
 .right{
     display: flex;
     flex-direction: column;
@@ -216,14 +217,12 @@
     display: block;
     padding: 20px;
 }
-
 .right .map > a{
     position: absolute;
     display: flex;
     flex-direction: column;
     width: 100px;
 }
-
 .right .map > .po1{
     left: 136px;
     top: 107px;
@@ -248,7 +247,6 @@
     width: 20px;
     margin: 0 auto;
 }
-
 .right .map-text{
     margin: 0 auto;
 }
