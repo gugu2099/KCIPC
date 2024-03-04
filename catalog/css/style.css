@@ -81,6 +81,7 @@ input:-moz-input-placeholder {color: #a8a8a8;}
 }
 
 .first .group{
+    width: 100%;
     font-size: 50px;
     height: 100%;
     position: relative;
@@ -187,19 +188,33 @@ display:block;
     justify-content: space-between;
 }
 .tabCon > ul > li{}
-.tabCon > ul > li > img{
+.tabCon > ul > li > a > img{
     width: 276px;
     height: 364px;
     background-color: #a8a8a8;
 }
-.tabCon > ul > li > p{
+.tabCon > ul > li > a > p{
     font-size: 18px;
     font-weight: 500;
     text-align: left;
     padding-top: 10px;
 }
+
+#tab1 .tabCon > ul > li > a > img {
+    background-color: #a8a8a8;
+}
+#tab2 .tabCon > ul > li > a > img {
+    background-color: #757575;
+}
+#tab3 .tabCon > ul > li > a > img {
+    background-color: #3f3f3f;
+}
+#tab4 .tabCon > ul > li > a > img {
+    background-color: #24aee1;
+}
 /* tab1 end */
 
-.footer{
+
+#footer{
     margin-top: 2000px;
 }

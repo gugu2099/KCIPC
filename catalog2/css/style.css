@@ -241,7 +241,8 @@ display:block;
     justify-content: space-between;
 }
 .tabCon > ul > li{}
-.tabCon > ul > li > img{
+.tabCon > ul > li > a{}
+.tabCon > ul > li > a > img{
     width: 276px;
     height: 190px;
     background-color: #a8a8a8;
@@ -253,9 +254,22 @@ display:block;
     text-align: left;
     padding-top: 10px;
 }
+
+#tab1 .tabCon > ul > li > a > img {
+    background-color: #a8a8a8;
+}
+#tab2 .tabCon > ul > li > a > img {
+    background-color: #757575;
+}
+#tab3 .tabCon > ul > li > a > img {
+    background-color: #3f3f3f;
+}
+#tab4 .tabCon > ul > li > a > img {
+    background-color: #24aee1;
+}
 /* tab1 end */
 
 
 .footer{
-    margin-top: 2000px;
+    margin-top: 1300px;
 }
