@@ -15,7 +15,6 @@ window.addEventListener('load', function() {
     });
 });
 
-
 window.addEventListener('scroll', function() {
     var header = document.getElementById('gnb');
     var scrollPosition = window.scrollY;
