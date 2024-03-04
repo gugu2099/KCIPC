@@ -131,13 +131,15 @@
 /* tabmenu end */
 
 /* page1 start */
-#page1{}
+#page1{
+    text-align: center;
+    margin: 0 auto;
+}
 #page1 .video{
     width: 100%;
-    background-color: #000;
-    /* width: 100%; */
-    height: 100vh; 
 }
+#page1 .video > source{}
+
 /* page1 end */
 
 /* page2 start */
